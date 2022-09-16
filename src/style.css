@@ -14,6 +14,29 @@ nav#navbar {
     display: grid;
     grid-template-columns: 7fr 3fr;
     border: 2px solid red;
+    margin: .46875rem 0 0 0 ;
+}
+
+ul.navbar__links {
+    display: flex;
+    font-family: 'Epilogue', sans-serif;
+    border: 2px solid red;
+    text-decoration: none;
+}
+
+ul.navbar__links a:visited {
+    color: black;
+}
+ul.navbar__links a:hover {
+    color: var(--dark-gray);
+}
+
+ul.navbar__links a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
 }
 
 button.btn {
@@ -22,6 +45,7 @@ button.btn {
     padding: .875rem;
     color: var(--dark-gray);
     border-color: var(--dark-gray);
+    cursor: pointer;
 }
 button.login {
     border: none;
@@ -37,17 +61,6 @@ button.regist {
 button.regist:hover {
     background-color: #e3dddd;
 }
-
-header ul {
-    list-style: none;
-}
-
-ul.navbar__links {
-    display: flex;
-    font-family: 'Epilogue', sans-serif;
-    border: 2px solid red;
-}
-
 ul.navbar__buttons {
     display: flex;
 }
