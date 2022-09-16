@@ -1,4 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+}
+
+nav#navbar {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    border: 2px solid red;
+}
+
+
+
+header ul {
+    list-style: none;
+}
+
+ul.navbar__links {
+    font-family: 'Epilogue', sans-serif;
+    border: 2px solid red;
+}
 
 .banner_section {
     background: #FAFAFA ;
