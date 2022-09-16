@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,21 +17,17 @@ nav#navbar {
 }
 .navbar__logo {
     margin-left: 1rem;
-    margin-top: 0.7rem;
+    margin-top: 0.9rem;
 }
-
 ul.navbar__links {
     font-family: 'Epilogue', sans-serif;
-    /* border: 2px solid red; */
     text-decoration: none;
     list-style: none;
-    
     display: grid;
     grid-template-columns: 0fr 2.3fr 2fr 2fr 1.5fr;
     place-items: center;
     justify-self: start;
-    grid-gap: 1rem;
-    /* justify-self: center; */
+    grid-gap: 3.5rem;
 }
 ul.navbar__links a:visited {
     color: #6e6969;
@@ -42,7 +39,6 @@ ul.navbar__links a:hover {
 ul.navbar__links a {
     text-decoration: none;
 }
-
 button.btn {
     font-family: 'Epilogue', sans-serif;
     background: unset;
@@ -59,7 +55,6 @@ button.login:hover {
 }
 button.regist {
     border-radius: .85rem;
-
     transition: 0.2s all ease;
 }
 button.regist:hover {
@@ -71,6 +66,7 @@ ul.navbar__buttons {
     list-style: none;
     margin-right: 3rem;
 }
+
 
 .banner_section {
     background: #FAFAFA ;
