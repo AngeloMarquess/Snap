@@ -7,11 +7,23 @@
 
 body{
     height: 100vh;
+    /* achei feio por isso nao coloquei */
     /* font-size: 18px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+}
+
+header img:nth-child(3) {
+    height: 18px;
 }
 
 h1 {
@@ -20,10 +32,16 @@ h1 {
 
 img#image-hero {
     width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 main {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 340px;
 }
 
 h2 , p, a {
@@ -31,23 +49,32 @@ h2 , p, a {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bold;
     color: var(--almost_black);
 }
 
 p {
     color: var(--medium_gray);
+    line-height: 25px;
+    text-align: center;
 }
 
 a {
     background-color: var(--almost_black);
     color: var(--almost_white);
-    padding: 13px 20px;
-    border-radius: 13px;
-    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 15px;
 }
 
 footer {
     display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+img.client {
+    height: 18px;
 }
