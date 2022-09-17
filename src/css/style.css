@@ -1,8 +1,53 @@
+:root {
+    --almost_white: #fafafa;
+    --medium_gray: #696969;
+    --almost_black: #141414;
+}
+
+
 body{
     height: 100vh;
+    /* font-size: 18px; */
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    display: none;
 }
 
 img#image-hero {
     width: 100%;
 }
 
+main {
+    display: flex;
+}
+
+h2 , p, a {
+    font-family: 'Epilogue';
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--almost_black);
+}
+
+p {
+    color: var(--medium_gray);
+}
+
+a {
+    background-color: var(--almost_black);
+    color: var(--almost_white);
+    padding: 13px 20px;
+    border-radius: 13px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+}
