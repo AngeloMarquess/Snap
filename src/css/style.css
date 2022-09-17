@@ -71,10 +71,20 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 45px;
     justify-content: space-around;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 img.client {
     height: 18px;
+}
+
+footer img.client:nth-child(1), 
+footer img.client:nth-child(3) {
+    height: 15px;
+}
+
+footer img.client:nth-child(2) {
+    height: 25px;
 }
