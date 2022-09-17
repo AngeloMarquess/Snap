@@ -46,6 +46,7 @@ button.btn {
     color: var(--dark-gray);
     border-color: var(--dark-gray);
     cursor: pointer;
+    border-style: double;
 }
 button.login {
     border: none;
