@@ -154,7 +154,6 @@ h2 , p, a {
         flex-direction: row-reverse;
     }
 
-
     div#goto {
         display: flex;
         align-items: center;
