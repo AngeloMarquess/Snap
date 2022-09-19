@@ -1,0 +1,30 @@
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+/* Mobile */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+div.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.client img{
+    width: 75%;
+}
+
+/* Desktop */
+
