@@ -2,46 +2,40 @@
     --almost_white: #fafafa;
     --medium_gray: #696969;
     --almost_black: #141414;
+    font-size: 18px;
 }
 
-
-body{
+body {
     height: 100vh;
-    /* achei feio por isso nao coloquei */
-    /* font-size: 18px; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 340px;
-}
-
-header img:nth-child(3) {
-    height: 18px;
+    margin: 20px 18px;
 }
 
 h1 {
     display: none;
 }
 
-img#image-hero {
+div#image-hero img{
     width: 100%;
-    margin: 0px 0px 0px 0px;
+}
+
+div#test {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 200px;
-    width: 340px;
+    margin: 50px 0;
 }
 
 h2 , p, a {
@@ -49,42 +43,45 @@ h2 , p, a {
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: bold;
     color: var(--almost_black);
 }
+
+div#content {
+    width: 95%;
+    margin: 20px 0;
+} 
 
 p {
     color: var(--medium_gray);
     line-height: 25px;
     text-align: center;
+    font-size: 0.9em;
 }
 
+
 a {
+    display: flex;
+    justify-content: center;
     background-color: var(--almost_black);
     color: var(--almost_white);
     padding: 15px 20px;
+    align-items: center;
     border-radius: 15px;
 }
 
 footer {
     display: flex;
-    align-items: center;
-    width: 100%;
-    height: 45px;
     justify-content: space-around;
-    margin-bottom: 70px;
 }
 
-img.client {
-    height: 18px;
+div.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-footer img.client:nth-child(1), 
-footer img.client:nth-child(3) {
-    height: 15px;
-}
-
-footer img.client:nth-child(2) {
-    height: 25px;
+div.client img{
+    width: 75%;
 }
