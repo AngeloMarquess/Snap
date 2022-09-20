@@ -33,7 +33,7 @@ ul.navbar__links a:visited {
     color: #6e6969;
 }
 ul.navbar__links a:hover {
-    color: #929090;
+    color: #000000;
 }
 
 ul.navbar__links a {
@@ -52,14 +52,15 @@ button.login {
     border: none;
 }
 button.login:hover {
-    color: #a5a3a3;
+    color: #000000;
 }
 button.regist {
     border-radius: .85rem;
     transition: 0.2s all ease;
 }
 button.regist:hover {
-    background-color: #e3dddd;
+    color: #000000;
+    border-color: #000000;
 }
 ul.navbar__buttons {
     display: flex;
