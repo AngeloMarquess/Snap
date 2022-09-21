@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div#container-footer {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 600px;
+    margin-left: 10%;
+}
+
+footer div.client {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
