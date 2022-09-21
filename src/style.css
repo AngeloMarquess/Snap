@@ -25,7 +25,7 @@ span{
 }
 
 h2 {
-    font-size: 3.125rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -34,10 +34,19 @@ p{
     font-size: 1.125rem;
     font-weight: 500;
     color: #AAA;
+    line-height: 25px;
 }
 
-.container{
-    margin: 10rem 8rem;
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container_pai {
+    width: 80%;
+    margin-left: 75px;
 }
 
 .container_button{
