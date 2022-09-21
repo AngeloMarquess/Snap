@@ -49,7 +49,7 @@ header {
 .navbar__links a {
     text-decoration: none;
 }
-.btn {
+.btnHeader {
     font-family: 'Epilogue', sans-serif;
     background: unset;
     padding: .875rem;
