@@ -1,9 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+
+}
+
+:root {
+    font-size: 16px;
+}
+
 .banner_section {
     background: #FAFAFA ;
 width: 10%;
 height: 10%;
 object-fit: cover;
 object-position: right;
+}
+
+span{
+    display: block;
+}
+
+h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #AAA;
+}
+
+.container{
+    margin: 10rem 8rem;
+}
+
+.container_button{
+    margin-top: 3rem;
+}
+
+.btn{
+   width: 10rem;
+   height: 3rem;
+   background-color: rgb(24, 24, 24);
+   border-radius: 10px;
+   color: #AAA;
+   cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #FAFAFA;
+    border: 0;
+    color: black;
 }
