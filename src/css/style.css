@@ -1,0 +1,38 @@
+/* All */
+:root {
+    --almost_white: #fafafa;
+    --medium_gray: #696969;
+    --almost_black: #141414;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: "header header"
+                         "main img"
+                         "footer img"
+}
+
+header {
+    grid-area: header;
+    background-color: #00ffff;
+}
+
+main {
+    grid-area: main;
+    background-color: #001aff;
+}
+
+img {
+    grid-area: img;
+    background-color: #00ff4c;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #e5ff00;
+}
+
