@@ -1,0 +1,145 @@
+/* All */
+:root {
+    --almost_white: #fafafa;
+    --medium_gray: #696969;
+    --almost_black: #141414;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: "header header"
+        "main img"
+        "footer img"
+}
+
+header {
+    grid-area: header;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr;
+    margin-top: .8rem;
+}
+
+.navbar__logo {
+    margin-left: 1rem;
+    margin-top: 0.9rem;
+}
+
+.navbar__links {
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 0fr 2.3fr 2fr 2fr 1.5fr;
+    place-items: center;
+    justify-self: start;
+    grid-gap: 3.5rem;
+    color: var(--medium_gray);
+}
+
+.navbar__links a:visited {
+    color: var(--medium_gray);
+}
+
+.navbar__links a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.navbar__links a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.open {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.menu-feat {
+    top: 3.75rem;
+    left: 12rem;
+}
+
+.open li:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.menu-comp {
+    top: 3.75rem;
+    left: 21rem;
+}
+
+.menu-comp li:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.btnHeader {
+    font-family: 'Epilogue', sans-serif;
+    background: unset;
+    padding: .875rem;
+    color: var(--medium_gray);
+    cursor: pointer;
+    border-style: double;
+}
+
+.login {
+    border: none;
+}
+
+.login:hover {
+    color: #000000;
+}
+
+.regist {
+    padding: 1rem 1.5rem;
+    border-radius: .85rem;
+    transition: 0.2s all ease;
+    border-color: var(--medium_gray);
+}
+
+.regist:hover {
+    color: #000000;
+    border-color: #000000;
+}
+
+.navbar__buttons {
+    display: flex;
+    justify-self: end;
+    list-style: none;
+    margin-right: 3rem;
+}
+
+
+
+main {
+    grid-area: main;
+    background-color: #001aff;
+}
+
+img {
+    grid-area: img;
+    background-color: #00ff4c;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #e5ff00;
+}
